@@ -6,6 +6,12 @@
 best method for data inference.
 
 ## Install
+Clone from git using: 
+```
+git clone https://github.com/IainMcl/Inference.git 
+```
+Create an environment as described blow then install requirements.
+
 ### Work machine
 On work machine using conda environment `Infer`. Activate using:
 ```
@@ -39,3 +45,6 @@ If new packages are installed run:
 pip freeze > requirements.txt
 ```
 
+## Run
+Run the file `manage.py` and follow instructions either choosing the gui or 
+work within the terminal.
