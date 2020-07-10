@@ -30,6 +30,8 @@ virtualenv <ENV_NAME>
 # change to env dir and run activate
 # change back to project dir
 pip install -r requirments.txt
+# Or using venv
+python -m venv <ENV_NAME>
 ```
 
 If new packages are installed run:
