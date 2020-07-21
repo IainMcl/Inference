@@ -3,6 +3,7 @@ import sys
 import argparse
 import tkinter as tk
 from gui.gui import Gui
+from data.loader import Data 
 
 def main():
     os.environ.setdefault("INFERENCE_SETTINGS_MODULE", "settings")
@@ -25,7 +26,8 @@ def main():
         gui.mainloop()
     if args.data:
         # start some work with the data
-        pass
+        data = Data(args.data)
+        data.load_data()
 
 if __name__ == "__main__":
     main()
