@@ -47,7 +47,7 @@ class Data(FormatConverter):
                 been removed. Returns 1 if the file has not been removed.
         """
         os.remove(os.path.join(BASE_DIR, f"data/{self.file_name}"))
-        if os.path.isfile(os.path.join(BASE_DIR, f"data/Pself.file_name}")):
+        if os.path.isfile(os.path.join(BASE_DIR, f"data/{self.file_name}")):
             return 1
         else:
             return 0
